@@ -104,6 +104,7 @@ export default function Student() {
               Name:{student.name}
               <br />
               Address:{student.address}
+              <br />
             </Link>
             <Button onClick={() => handelDelete(student.id)}>DELETE</Button>
           </Paper>
